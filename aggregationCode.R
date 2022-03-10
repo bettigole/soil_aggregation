@@ -1,4 +1,5 @@
-setwd('location_of_this_file')
+library("rstudioapi")  
+setwd(dirname(getActiveDocumentContext()$path)) 
 source('code/projectSetup.R')
 source('code/aggregateFun.R')
 source('code/anovaFun.R')
