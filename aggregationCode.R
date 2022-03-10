@@ -1,4 +1,4 @@
-setwd('C:/GIS/Stratifi/aggregation')
+setwd('location_of_this_file')
 source('code/projectSetup.R')
 source('code/aggregateFun.R')
 source('code/anovaFun.R')
